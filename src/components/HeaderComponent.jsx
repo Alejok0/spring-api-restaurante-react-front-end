@@ -22,10 +22,19 @@ function HeaderComponent() {
               <a className="nav-link" onClick={() => navigate('/')} style={{ color: '#333', fontSize: '1.1rem', cursor: 'pointer' }}>Inicio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" onClick={() => navigate('/menu')} style={{ color: '#333', fontSize: '1.1rem', cursor: 'pointer' }}>Menu</a>
+              <a className="nav-link" onClick={() => navigate('/menu')} style={{ color: '#333', fontSize: '1.1rem', cursor: 'pointer' }}>Menú</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" onClick={() => navigate('/producto')} style={{ color: '#333', fontSize: '1.1rem', cursor: 'pointer' }}>Producto</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" onClick={() => navigate('/ordenes')} style={{ color: '#333', fontSize: '1.1rem', cursor: 'pointer' }}>Órdenes</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" onClick={() => navigate('/pagos')} style={{ color: '#333', fontSize: '1.1rem', cursor: 'pointer' }}>Pagos</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" onClick={() => navigate('/empleados')} style={{ color: '#333', fontSize: '1.1rem', cursor: 'pointer' }}>Empleados</a>
             </li>
           </ul>
           <button className="btn btn-dark" onClick={() => alert("Sesión cerrada")}>Cerrar sesión</button>
@@ -33,7 +42,7 @@ function HeaderComponent() {
       </div>
 
       <title>Control restaurantero</title>
-       <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWDgh9iQsF02C1EOdKL_cIMrfX-YKAAliXw&s" />
+      <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEWDgh9iQsF02C1EOdKL_cIMrfX-YKAAliXw&s" />
     </header>
   );
 }
